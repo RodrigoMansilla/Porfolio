@@ -1,29 +1,40 @@
 (function (self, $, undefined) {
   Index.Star = function () {
+    // me traigo el modal 
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
+// me traigo el btn que abre el modal 
 var btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
+// me traigo el x
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// abrir modal 
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// cerrar el modal desde la x
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// cerrar el modal tocando fuera de el 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
+// cerrar el modal con esc 
+window.addEventListener("keyup", function(event){
+  var codigo = event.keyCode || event.which;
+  if (codigo == 27){
+    
+      modal.style.display = "none";
+    
+  }
+}, false);
+
 }     
 }(window.Index = window.Index || {}, jQuery));
 
