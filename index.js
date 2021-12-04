@@ -4,7 +4,7 @@
 var modal = document.getElementById("myModal");
 
 // me traigo el btn que abre el modal 
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("btnTecnologias");
 
 // me traigo el x
 var span = document.getElementsByClassName("close")[0];
