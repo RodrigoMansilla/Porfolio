@@ -1,7 +1,7 @@
 (function (self, $, undefined) {
   Index.Star = function () {
     // me traigo el modal 
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModal2");
 
 // me traigo el btn que abre el modal 
 var btn = document.getElementById("btnTecnologias");
