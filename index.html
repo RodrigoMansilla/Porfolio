@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="estilos.css">
     <script src="index.js" ></script>
@@ -78,6 +79,47 @@
                
             </div>
         </div>
+    </section>
+    <section class="cuatro">
+        <div style="width: 100%;"  >
+            <h1>
+                Pequeños proyectos
+            </h1>
+        </div>
+        <div style="width: 50%; float:left ; border: 1px;">
+            <h3>
+                Utilice el generador de contraseñas en línea para crear 
+                de forma instantánea una contraseña aleatoria y segura.
+            </h3s>
+            <p>
+                Cantidad de caracteres de su contraseña :
+            </p>
+            <div >
+                <select name="cantidad" id="cantidad" class="select-css">
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button id="btnGenerarContra" class="btnG">Generar contraseña</button>
+            <br>
+             <input  class="inputResult" id="result" readonly hidden>
+             <a id="btnCopy" onclick="clickInA()" hidden>
+                <i class="far fa-copy"></i>
+             </a>
+
+             <div id="alertas"></div>
+        </div> 
+        <div style="width: 50%; float:right; border: 1px;">
+            <h3>
+               PROXIMAMENTE 
+            </h3>
+        </div>
+        </div> 
     </section>
     <footer>
         <h2>Contactame</h2>
