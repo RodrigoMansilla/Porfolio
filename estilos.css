@@ -10,10 +10,7 @@ header{
     align-items: center;
     padding-left: 25px;
 }
-.cara{
-    border-radius: 500px;
-    height: 200px;
-}
+
 .uno{
     width: 100%;
     display: flex;
@@ -24,6 +21,44 @@ header{
     color: white;
     /* padding-top: 10%; */
 }
+.dos{
+    background-color: #F2F2F2;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.tres{
+    background-color: #303030;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+}
+.cuatro{
+    background-color: #d4dee2;
+    height: 590px;
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.ConPadding{
+    margin-top: auto;
+    padding-top: 17px;
+}
+.cara{
+    border-radius: 500px;
+    height: 200px;
+}
+
 .caja-central{
     margin-top: 10%;
     width: 50%;
@@ -50,25 +85,8 @@ header{
     padding: 10px;
 }
 
-.dos{
-    background-color: #F2F2F2;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #303030;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-.cuatro{
-    margin-left: 11px;
-    margin-right: 11px;
-    height: 590px;
-    display: block;
-    text-align: center;
-    align-items: center;
-}
+
+
 .aptitudes{
     width: 60%;
 }
@@ -91,15 +109,6 @@ header{
 .parrafoa {
 
     margin-top: 3%;
-}
-.tres{
-    background-color: #303030;
-    height: 600px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    color: #F2F2F2;
 }
 .Experiencia{
     width: 60%;
