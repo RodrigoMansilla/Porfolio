@@ -10,7 +10,6 @@ header{
     align-items: center;
     padding-left: 25px;
 }
-
 .uno{
     width: 100%;
     display: flex;
@@ -84,9 +83,11 @@ header{
     color: #303030;
     padding: 10px;
 }
-
-
-
+.divdivision{
+    width: 50%; 
+    float:left ; 
+    border: 1px;
+}
 .aptitudes{
     width: 60%;
 }
