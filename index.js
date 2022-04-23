@@ -1,4 +1,4 @@
-function clickInA() {
+function CopyPassword() {
   document.getElementById("alertas").innerHTML = "";
   var copyText = document.getElementById("result");
   copyText.setSelectionRange(0, 99999); 

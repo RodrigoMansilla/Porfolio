@@ -145,6 +145,7 @@ footer{
     color: #F2F2F2;
     height: 250px;
 }
+
 .contacto{
     width: 30%;
     display: flex;
@@ -323,8 +324,6 @@ footer{
         margin-top: 20px;
     }
     .red-social{
-        /* //margin: 0 10px 0 10px; */
-        width: 30%;
-        height: 30%;
+        margin: 0 10px 0 10px; 
     }
 }
