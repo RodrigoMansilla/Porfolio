@@ -2,6 +2,23 @@ body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.columna {
+    width:32%;
+    float:left;
+    border:1px solid #ccc;
+    margin-left: 10px;
+    height: 197px;
+    
+  }
+  
+  @media (max-width: 500px) {
+    
+    .columna {
+      width:auto;
+      float:none;
+    }
+    
+  }
 header{
     height: 65px;
     background-color: #448aca;
